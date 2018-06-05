@@ -1,0 +1,36 @@
+/* Color */
+$color-light-blue: #4A90E2;
+$color-dark-blue: #00408B;
+$color-red: #D0021B;
+$color-orange: #F5A623;
+$color-light-orange: #FFF2DC;
+
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-dark-grey: #757575;
+$color-grey: #C8C8C8;
+$color-light-grey: #E1E1E1;
+$color-lighter-grey: #F2F2F2;
+
+/* Font */
+@mixin font-title() {
+  font-size: 24px;
+  line-height: 28px;
+}
+@mixin font-subtitle() {
+  font-size: 20px;
+  line-height: 24px;
+}
+@mixin font-paragraph() {
+  font-size: 16px;
+  line-height: 24px;
+}
+@mixin font-remark() {
+  @include font-paragraph();
+  color: $color-dark-grey;
+}
+@mixin font-status() {
+  @include font-title();
+  color: $color-grey;
+  font-style: italic;
+}
