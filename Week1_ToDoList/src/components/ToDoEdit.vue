@@ -28,7 +28,9 @@
           <span>File</span>
         </div>
         <div class="edit-row-content">
-          <div class="add-file-button"></div>
+          <div class="add-file-button">
+            <i id="add-file-btn" class="fas fa-plus" style="color: white"></i>
+          </div>
         </div>
       </div>
       <div class="edit-content-block edit-comment">
@@ -110,7 +112,7 @@ export default {
     display: flex;
     flex-direction: column;
     .edit-content-block {
-      margin-bottom: 25px;
+      margin-bottom: 15px;
     }
     .edit-row-title {
       @include font-subtitle();
@@ -138,6 +140,21 @@ export default {
         border: 0px;
         border-radius: 2px;
         padding: 8px 16px;
+      }
+      .add-file-button {
+        width: 32px;
+        height: 32px;
+        background: $color-grey;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        &:hover {
+          background: $color-light-blue;
+        }
+        #add-file-btn {
+          color: $color-white;
+        }
       }
     }
   }
