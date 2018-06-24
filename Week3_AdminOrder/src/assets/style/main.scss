@@ -1,0 +1,11 @@
+@import './variables.scss';
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+html {
+  background-color: $color-gray-1;
+}
+
+
+input[type=checkbox] {
+  width: 15px;
+  height: 15px;
+}

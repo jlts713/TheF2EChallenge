@@ -1,0 +1,40 @@
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+$color-gray-1: #F2F2F2;
+$color-gray-2: #E1E1E1;
+$color-gray-3: #C8C8C8;
+$color-gray-4: #757575;
+
+$color-red: #D0021B;
+$color-orange: #F5A623;
+$color-blue: #4A90E2;
+$color-green: #7ED321;
+
+@mixin font-title() {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+@mixin font-title-lg() {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: bold;
+}
+
+@mixin font-title-sm() {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+@mixin font-16px() {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin font-14px() {
+  font-size: 14px;
+  line-height: 24px;
+}
