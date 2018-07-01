@@ -1,0 +1,38 @@
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-green: #50E3C2;
+$color-grey: rgba(0,0,0,0.3);
+$color-light-grey: rgba(0,0,0,0.1);
+
+@mixin font-title() {
+  font-size: 72px;
+  line-height: 85px;
+  font-weight: 600;
+}
+
+@mixin font-semi-title(){
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 600;
+}
+
+@mixin font-italic-subtitle(){
+  font-size: 24px;
+  font-style: italic;
+  line-height: 28px;
+}
+
+@mixin font-subtitle() {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+@mixin font-paragraph() {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin font-logo() {
+  font-size: 20px;
+  line-height: 24px;
+}
