@@ -163,7 +163,7 @@ export default {
   #image-block1 {
     grid-column: 1 / 5;
     grid-row: 3 / 7;
-    background-image: url('../static/img/image1.jpg');
+    background-image: url('../img/image1.jpg');
     background-size: 100%, 400px;
     background-position-y: -150px;
   }
@@ -171,7 +171,7 @@ export default {
    #image-block2 {
     grid-column: 6 / 8;
     grid-row: 4 / 6;
-    background-image: url('../static/img/image2.jpg');
+    background-image: url('../img/image2.jpg');
     background-size: 100%, 100%;
     background-position-y: -100px;
   }
@@ -179,7 +179,7 @@ export default {
   #image-block3 {
     grid-column: 1 / 5;
     grid-row: 9 / span 2;
-    background-image: url('../static/img/image3.jpg');
+    background-image: url('../img/image3.jpg');
     background-size: 100%, 100%;
     background-position-y: -60px;
   }
@@ -187,7 +187,7 @@ export default {
   #image-block4 {
     grid-column: span 2 / -1;
     grid-row: 9 / span 4;
-    background-image: url('../static/img/image4.jpg');
+    background-image: url('../img/image4.jpg');
     background-size: cover;
     background-position-x: -30px;
   }
@@ -195,7 +195,7 @@ export default {
   #image-block5 {
     grid-column: 3 / span 2;
     grid-row: span 2 / -7;
-    background-image: url('../static/img/image5.jpg');
+    background-image: url('../img/image5.jpg');
     background-size: cover;
     background-position-x: -30px;
     transform: rotateY(180deg);
@@ -204,7 +204,7 @@ export default {
   #image-block6 {
     grid-column: span 4 / -1;
     grid-row: span 4 / -3;
-    background-image: url('../static/img/image6.jpg');
+    background-image: url('../img/image6.jpg');
     background-size: cover;
     background-position-y: -160px;
   }
@@ -212,7 +212,7 @@ export default {
   #image-block7 {
     grid-column: 1 / span 2;
     grid-row: span 4 / -1;
-    background-image: url('../static/img/image7.jpg');
+    background-image: url('../img/image7.jpg');
     background-size: cover;
   }
 
