@@ -1,0 +1,25 @@
+@import './variables.scss';
+
+input {
+  height: 52px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  @include font-20px();
+  &:focus {
+    border: 2px solid $color-blue;
+    outline: 0px;
+  }
+  &.warning {
+    border: 2px solid $color-warning;
+  }
+}
+
+.label {
+  @include font-20px();
+  margin-bottom: 8px;
+}
+.form-row {
+  margin: 24px 0;
+}

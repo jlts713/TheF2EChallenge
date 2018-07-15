@@ -1,0 +1,26 @@
+$color-blue: #0275db;
+$color-lightblue: #BEE1FF;
+$color-warning: #F5A623;
+$color-gray: #9B9B9B;
+
+@mixin font-36px() {
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 300;
+}
+
+@mixin font-24px(){
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+@mixin font-20px() {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@mixin font-14px() {
+  font-size: 14px;
+  line-height: 16px;
+}
